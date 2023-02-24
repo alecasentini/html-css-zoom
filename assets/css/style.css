@@ -11,12 +11,16 @@
     height: 100vh;
 }
 
-.h-90{
-    height: 90%;
+.vh-85{
+    height: 85vh;
 }
 
-.h-10{
-    height: 10%;
+.vh-5{
+    height: 5vh;
+}
+
+.vh-10{
+    height: 10vh;
 }
 
 .debug{
@@ -97,7 +101,8 @@
 /* top */
 .top-bar{
     width: 100%;
-    padding: 7px 0;
+    padding: 10px 5px;
+    
 }
 
 .top-btn .btn{
@@ -108,15 +113,19 @@
 /* cards */
 .cards{
     padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .card{
-    width: calc(100%/7 - 0.5%);
-    margin: 1% 0;
+    width: calc(100%/7 - 1%);
+    height: calc(85vh/5 - 2%);
 }
 
 .card img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mic-name{
