@@ -11,16 +11,16 @@
     height: 100vh;
 }
 
+.h-90{
+    height: 90%;
+}
+
+.h-10{
+    height: 10%;
+}
+
 .debug{
     border: 3px dashed red;
-}
-
-.vh-90{
-    height: 90vh;
-}
-
-.vh-10{
-    height: 10vh;
 }
 
 .bg-black{
@@ -69,7 +69,7 @@
 }
 
 .wrap{
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 .justify-content-beetween{
@@ -80,10 +80,14 @@
     justify-content: end;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .btn{
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
-    padding: 5px;
+    padding: 5px 3px;
 }
 
 .green{
@@ -93,12 +97,12 @@
 /* top */
 .top-bar{
     width: 100%;
-    padding: 20px 0;
+    padding: 7px 0;
 }
 
 .top-btn .btn{
     background-color: #4a4a4a;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 /* cards */
@@ -108,7 +112,7 @@
 
 .card{
     width: calc(100%/7 - 0.5%);
-    margin: 10px 0;
+    margin: 1% 0;
 }
 
 .card img{
@@ -140,20 +144,23 @@
     padding: 10px 0;
 }
 
-.bottom{
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
-
 .fa-angle-up:only-of-type{
     font-size:15px;
+}
+
+span.text{
+    font-size:13px;
 }
 
 .bottom i{
     font-size: 25px;
 }
 
+.bottom{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 
 
